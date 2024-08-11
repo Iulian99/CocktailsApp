@@ -37,5 +37,5 @@ Technologies Used
   - Once logged in, navigate to the Cocktail API section.
   - Generate your API key.
   - Save this API key for later.
-5. Add the API key in `CocktailApiService.kt` to the line `@Headers("X-Api-Key: YOUR_API_KEY_HERE")`.
-6. Run the app on an emulator or physical device.
+5. **Add the API key** in `CocktailApiService.kt` to the line `@Headers("X-Api-Key: YOUR_API_KEY_HERE")`.
+6. **Run the app on an emulator or physical device.**
