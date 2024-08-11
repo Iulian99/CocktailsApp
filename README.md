@@ -23,4 +23,3 @@ Technologies Used
 - **Retrofit**: For API calls and data manipulation from the server.
 - **Gson**: Serialize and deserialize JSON objects.
 - **LiveData** and **ViewModel**: Manage and observe application data.
-- **Fragment**: Structuring the UI into reusable components.
