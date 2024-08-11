@@ -26,14 +26,12 @@ Technologies Used
 
 ## How to run the project
 
-1. Clone this repository:
+1. **Clone this repository:**
  ```bash
  git clone https://github.com/username/cocktail-app.git
  ```
-2. Open the project in Android Studio.
-3. Get an API Key for the cocktail service:**
-  - You will need an API key to use the cocktail service. Follow these steps to obtain one:
-  
+2. **Open the project in Android Studio.**
+3. **Get an API Key for the cocktail service:**
   - Visit API Ninjas - API Cocktail.
   - Create a free account or log in if you already have one.
   - Once logged in, navigate to the Cocktail API section.
