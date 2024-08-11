@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cocktailFragment">
+    <fragment
+        android:id="@+id/cocktailFragment"
+        android:name="com.example.cocktailsapp.Cocktail.view.CocktailFragment"
+        android:label="Cocktail Fragment"
+        tools:layout="@layout/fragment_cocktail" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.cocktailsapp.Favorite.FavoriteFragment"
+        android:label="Home Fragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.cocktailsapp.Setttings.SettingsFragment"
+        android:label="Settings Fragment"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.example.cocktailsapp.Setttings.Language.LanguageFragment"
+        android:label="Language"
+        tools:layout="@layout/fragment_language" >
+        <action
+            android:id="@+id/action_languageFragment_self"
+            app:destination="@id/languageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.cocktailsapp.Setttings.Contact.ContactFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/questionsFragment"
+        android:name="com.example.cocktailsapp.Setttings.Questions.QuestionsFragment"
+        android:label="Questions"
+        tools:layout="@layout/fragment_questions" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.cocktailsapp.Setttings.AboutApp.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about"/>
+
+
+</navigation>
