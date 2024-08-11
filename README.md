@@ -9,3 +9,18 @@ Cocktail App is an Android app that allows users to explore and discover differe
 - **Manage Favorites**: Add or remove cocktails from the favorites list.
 - **API Integration**: Uses an external API to retrieve cocktail data.
 - **MVVM Architecture**: Implementation based on Model-View-ViewModel architecture to separate logic from GUI.
+
+
+Technologies Used
+
+- **Kotlin**: The main programming language.
+- **Android SDK**
+- **RecyclerView**
+- **Firebase Authentication**
+- **Cocktail API**
+- **Navigation Component**
+- **SharedPreferences**
+- **Retrofit**: For API calls and data manipulation from the server.
+- **Gson**: Serialize and deserialize JSON objects.
+- **LiveData** and **ViewModel**: Manage and observe application data.
+- **Fragment**: Structuring the UI into reusable components.
