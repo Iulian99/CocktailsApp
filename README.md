@@ -31,13 +31,13 @@ Technologies Used
  git clone https://github.com/username/cocktail-app.git
  ```
 2. Open the project in Android Studio.
-3. Get an API Key for the cocktail service:
-  You will need an API key to use the cocktail service. Follow these steps to obtain one:
+3. Get an API Key for the cocktail service:**
+  - You will need an API key to use the cocktail service. Follow these steps to obtain one:
   
-  Visit API Ninjas - API Cocktail.
-  Create a free account or log in if you already have one.
-  Once logged in, navigate to the Cocktail API section.
-  Generate your API key.
-  Save this API key for later.
+  - Visit API Ninjas - API Cocktail.
+  - Create a free account or log in if you already have one.
+  - Once logged in, navigate to the Cocktail API section.
+  - Generate your API key.
+  - Save this API key for later.
 5. Add the API key in `CocktailApiService.kt` to the line `@Headers("X-Api-Key: YOUR_API_KEY_HERE")`.
 6. Run the app on an emulator or physical device.
